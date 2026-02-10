@@ -1,0 +1,89 @@
+[gd_scene load_steps=7 format=3 uid="uid://biku8qa664lcp"]
+
+[ext_resource type="ArrayMesh" uid="uid://cb87tq1j4g7ll" path="res://zzzz.res" id="1_jka67"]
+[ext_resource type="PackedScene" uid="uid://dpxmvdwt6alh5" path="res://low-poly_truck_car_drifter/scene.gltf" id="2_i5arm"]
+[ext_resource type="ArrayMesh" uid="uid://c4j5q467orobg" path="res://wwww.res" id="3_wc5p8"]
+[ext_resource type="ArrayMesh" uid="uid://curdi7ag0jjc5" path="res://cnnn.res" id="4_jsk3o"]
+[ext_resource type="ArrayMesh" uid="uid://pkxtn83kpcj6" path="res://cnnn3.res" id="5_4arys"]
+[ext_resource type="ArrayMesh" uid="uid://dnvd7al5xfrtf" path="res://bbb.res" id="6_i5arm"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Zzzz" type="MeshInstance3D" parent="."]
+transform = Transform3D(10000, 0, 0, 0, 1, 0, 0, 0, 20.06, -14462.005, 1000, 297.703)
+mesh = ExtResource("1_jka67")
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("2_i5arm")]
+transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, -4704.3833, 1001.3545, 148.11179)
+
+[node name="Wwww" type="MeshInstance3D" parent="."]
+transform = Transform3D(10000, 0, 0, 0, 1, 0, 0, 0, 20.06, -14462.005, 1000.16, 433.038)
+mesh = ExtResource("3_wc5p8")
+
+[node name="Cnnn" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -4683.9927, 1000.6338, 139.15158)
+mesh = ExtResource("4_jsk3o")
+
+[node name="Cnnn" type="MeshInstance3D" parent="Cnnn"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -4684.229, 1000.497, 140)
+mesh = ExtResource("4_jsk3o")
+
+[node name="Cnnn3" type="MeshInstance3D" parent="Cnnn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+mesh = ExtResource("5_4arys")
+
+[node name="Cnnn4" type="MeshInstance3D" parent="Cnnn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 0)
+mesh = ExtResource("5_4arys")
+
+[node name="Cnnn2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -4650.5186, 1000.6338, 156.09164)
+mesh = ExtResource("4_jsk3o")
+
+[node name="Cnnn" type="MeshInstance3D" parent="Cnnn2"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -4684.229, 1000.497, 140)
+mesh = ExtResource("4_jsk3o")
+
+[node name="Cnnn3" type="MeshInstance3D" parent="Cnnn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+mesh = ExtResource("5_4arys")
+
+[node name="Cnnn4" type="MeshInstance3D" parent="Cnnn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 0)
+mesh = ExtResource("5_4arys")
+
+[node name="Cnnn3" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.70710677, -0.70710677, -3.090862e-08, 0, -4.371139e-08, 1, -0.70710677, -0.70710677, -3.090862e-08, -4618.9185, 1000.6338, 135.45679)
+mesh = ExtResource("4_jsk3o")
+
+[node name="Cnnn" type="MeshInstance3D" parent="Cnnn3"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -4684.229, 1000.497, 140)
+mesh = ExtResource("4_jsk3o")
+
+[node name="Cnnn3" type="MeshInstance3D" parent="Cnnn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+mesh = ExtResource("5_4arys")
+
+[node name="Cnnn4" type="MeshInstance3D" parent="Cnnn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 0)
+mesh = ExtResource("5_4arys")
+
+[node name="Cnnn4" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.7071067, 0.7071067, 3.090862e-08, 0, -4.3711385e-08, 1, 0.7071067, -0.7071067, -3.090862e-08, -4618.9185, 1000.6338, 162.43)
+mesh = ExtResource("4_jsk3o")
+
+[node name="Cnnn" type="MeshInstance3D" parent="Cnnn4"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -4684.229, 1000.497, 140)
+mesh = ExtResource("4_jsk3o")
+
+[node name="Cnnn3" type="MeshInstance3D" parent="Cnnn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+mesh = ExtResource("5_4arys")
+
+[node name="Cnnn4" type="MeshInstance3D" parent="Cnnn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 0)
+mesh = ExtResource("5_4arys")
+
+[node name="Bbb" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.371139e-09, 0.1, 4.371139e-09, 0, -4.371139e-09, 0.1, 0.1, 4.371139e-09, 1.9106854e-16, -4624.1245, 1000.6053, 78.43545)
+mesh = ExtResource("6_i5arm")
